@@ -32,6 +32,9 @@ import slack from "../../assets/images/brands/slack.png";
 //i18n
 import { withTranslation } from "react-i18next";
 
+
+
+
 const Header = props => {
   const [menu, setMenu] = useState(false);
   const [isSearch, setSearch] = useState(false);
@@ -74,7 +77,7 @@ const Header = props => {
                   <img src={logo} alt="" height="22" />
                 </span>
                 <span className="logo-lg">
-                  <img src={logoDark} alt="" height="17" />
+                  <img src={logoDark} alt="" height="100" />
                 </span>
               </Link>
 
@@ -83,7 +86,7 @@ const Header = props => {
                   <img src={logoLightSvg} alt="" height="22" />
                 </span>
                 <span className="logo-lg">
-                  <img src={logoLight} alt="" height="19" />
+                  <img src={logoLight} alt="" height="102" />
                 </span>
               </Link>
             </div>

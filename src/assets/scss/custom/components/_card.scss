@@ -1,10 +1,9 @@
-// 
-// _card.scss
-// 
+
 
 .card {
   margin-bottom: $grid-gutter-width;
   box-shadow: $box-shadow;
+  text-align: left;
 }
 
 .card-drop {

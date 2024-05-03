@@ -565,7 +565,7 @@ const options = {
       text: "Week",
     },
   },
-  colors: ["#556ee6"],
+  colors: ["#071E7B"],
 };
 
 const series = [

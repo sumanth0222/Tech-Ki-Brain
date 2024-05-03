@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import React from "react";
 
-import { Row, Col, CardBody, Card, Alert, Container, Form, Input, FormFeedback, Label } from "reactstrap";
+import { Row, Col, CardBody, Card, Alert, Container, Form, Input, FormFeedback, Label, } from "reactstrap";
 
 //redux
 import { useSelector, useDispatch } from "react-redux";
@@ -18,12 +18,36 @@ import { loginUser, socialLogin } from "../../store/actions";
 
 // import images
 import profile from "assets/images/profile-img.png";
-import logo from "assets/images/logo.svg";
+
+// Reactstrap
+import { Dropdown, DropdownToggle, DropdownMenu } from "reactstrap";
+
+// Import menuDropdown
+import LanguageDropdown from "components/CommonForBoth/TopbarDropdown/LanguageDropdown";
+import NotificationDropdown from "components/CommonForBoth/TopbarDropdown/NotificationDropdown";
+import ProfileMenu from "components/CommonForBoth/TopbarDropdown/ProfileMenu";
+import megamenuImg from "../../assets/images/megamenu-img.png";
+
+
+
+// import images
+import github from "../../assets/images/brands/github.png";
+import bitbucket from "../../assets/images/brands/bitbucket.png";
+import dribbble from "../../assets/images/brands/dribbble.png";
+import dropbox from "../../assets/images/brands/dropbox.png";
+import mail_chimp from "../../assets/images/brands/mail_chimp.png";
+import slack from "../../assets/images/brands/slack.png";
+import logo from "../../assets/images/logo.svg";
+import logoLightSvg from "../../assets/images/logo-light.svg";
+import images from "assets/images/crypto/features-img/img-2.png";
+import logoDark from "assets/images/logo-dark-banner.png"
+
+
 
 const Login = props => {
 
   //meta title
-  document.title = "Login | Skote - React Admin & Dashboard Template";
+  document.title = "Login | TECHEBRAIN - React Admin & Dashboard Template";
 
   const dispatch = useDispatch();
 
@@ -32,7 +56,7 @@ const Login = props => {
     enableReinitialize: true,
 
     initialValues: {
-      email: "admin@themesbrand.com" || '',
+      email: "info@infinitechsoft.com" || '',
       password: "123456" || '',
     },
     validationSchema: Yup.object({
@@ -70,17 +94,39 @@ const Login = props => {
 
   return (
     <React.Fragment>
-      <div className="account-pages my-5 pt-sm-5">
+
+     
+      <div className="account-pages">
+      <Container fluid className="overflow-hidden mb-5">
+        <Row className="bg-primary-subtle">
+          <Col md={12} lg={12} xl={12} className="py-3 px-5">
+          <img src={logoDark} alt="" className="img-fluid" width={250} />
+          </Col>
+        </Row>
+      </Container>
+
         <Container>
           <Row className="justify-content-center">
-            <Col md={8} lg={6} xl={5}>
+            <Col md={8} lg={7} xl={7}>
+              <div className="overflow-hidden mt-5">
+              <div className="mt-5"></div>
+              <div className="mt-5"></div>
+              </div>
+           
+           
+              <CardBody className="p-5 mt-5 bg-primary-subtle">
+                <h3>Welcome to Techebrain - Where Innovation Meets Education!</h3>
+              </CardBody>
+            </Col>
+
+            <Col md={4} lg={5} xl={5}>
               <Card className="overflow-hidden">
                 <div className="bg-primary-subtle">
                   <Row>
                     <Col className="col-7">
                       <div className="text-primary p-4">
                         <h5 className="text-primary">Welcome Back !</h5>
-                        <p>Sign in to continue to Skote.</p>
+                        <p>Sign in to TECHEBRAIN.</p>
                       </div>
                     </Col>
                     <Col className="col-5 align-self-end">
@@ -164,6 +210,12 @@ const Login = props => {
                           Remember me
                         </label>
                       </div>
+                      <div className="mt-4">
+                        <Link to="/forgot-password" className="text-muted">
+                          <i className="mdi mdi-lock me-1" />
+                          Forgot your password?
+                        </Link>
+                      </div>
 
                       <div className="mt-3 d-grid">
                         <button
@@ -224,28 +276,30 @@ const Login = props => {
                             </Link>
                           </li>
                         </ul>
-                      </div>
 
-                      <div className="mt-4 text-center">
-                        <Link to="/forgot-password" className="text-muted">
-                          <i className="mdi mdi-lock me-1" />
-                          Forgot your password?
-                        </Link>
+                        <p>
+                          Don&#39;t have an account ?{" "} <Link to="/register" className="fw-medium text-primary">
+                            {" "}
+                            Signup now{" "}
+                          </Link>{" "}
+                        </p>
                       </div>
                     </Form>
                   </div>
                 </CardBody>
               </Card>
-              <div className="mt-5 text-center">
+            </Col>
+          </Row>
+        </Container>
+
+
+        <Container fluid className="overflow-hidden">
+          <Row className="bg-primary-subtle">
+            <Col md={12} lg={12} xl={12}>
+              <div className="mt-3 text-center">
                 <p>
-                  Don&#39;t have an account ?{" "} <Link to="/register" className="fw-medium text-primary">
-                    {" "}
-                    Signup now{" "}
-                  </Link>{" "}
-                </p>
-                <p>
-                  © {new Date().getFullYear()} Skote. Crafted with{" "}
-                  <i className="mdi mdi-heart text-danger" /> by Themesbrand
+                  © {new Date().getFullYear()} TECHEBRAIN.{" "}
+                  <i className="mdi mdi-heart text-danger" />
                 </p>
               </div>
             </Col>
@@ -256,7 +310,10 @@ const Login = props => {
   );
 };
 
+
+
 export default withRouter(Login);
+
 
 Login.propTypes = {
   history: PropTypes.object,

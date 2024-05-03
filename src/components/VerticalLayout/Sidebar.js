@@ -25,7 +25,7 @@ const Sidebar = props => {
               <img src={logo} alt="" height="22" />
             </span>
             <span className="logo-lg">
-              <img src={logoDark} alt="" height="17" />
+              <img src={logoDark} alt="" height="100" />
             </span>
           </Link>
 
@@ -34,7 +34,7 @@ const Sidebar = props => {
               <img src={logoLightSvg} alt="" height="22" />
             </span>
             <span className="logo-lg">
-              <img src={logoLightPng} alt="" height="19" />
+              <img src={logoLightPng} alt="" height="102" />
             </span>
           </Link>
         </div>

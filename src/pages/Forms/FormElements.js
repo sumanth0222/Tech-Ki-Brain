@@ -247,7 +247,7 @@ const FormElements = () => {
                       <input
                         className="form-control form-control-color mw-100"
                         type="color"
-                        defaultValue="#556ee6"
+                        defaultValue="#071E7B"
                         id="example-color-input"
                       />
                     </div>

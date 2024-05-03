@@ -32,8 +32,8 @@ label {
 .blockquote-reverse {
   border-left: 0;
   border-right: 4px solid var(--#{$variable-prefix}border-color);
-  text-align: right;
-}
+  text-align: left;
+}   
 
 // container
 
