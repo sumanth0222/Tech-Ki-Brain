@@ -42,7 +42,7 @@ const theme = {
     }
   },
   series: {
-    startColor: "#556ee6",
+    startColor: "#071E7B",
     endColor: "#34c38f",
     overColor: "#75b5aa",
     borderColor: "#F4511E"

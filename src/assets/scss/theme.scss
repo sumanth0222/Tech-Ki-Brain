@@ -20,6 +20,9 @@ body {
     outline: none;
   }
 }
+body{
+  text-align: left !important;
+}
 
 #sidebar-menu {
   ul {
@@ -203,7 +206,7 @@ span.flatpickr-weekday {
   }
 
   .dot {
-    background: #556ee6 !important;
+    background: #071E7B !important;
     width: 9px !important;
     height: 9px !important;
   }

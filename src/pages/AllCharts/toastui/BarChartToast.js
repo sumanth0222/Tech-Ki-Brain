@@ -37,7 +37,7 @@ const theme = {
     lineColor: "rgba(166, 176, 207, 0.1)"
   },
   series: {
-    colors: ["#556ee6", "#34c38f"]
+    colors: ["#071E7B", "#34c38f"]
   },
   legend: {
     label: {

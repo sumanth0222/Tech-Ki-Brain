@@ -723,7 +723,7 @@ const Chat = () => {
                                     </Link>
                                   </li>
                                   <li className="list-inline-item">
-                                    <label htmlFor="imageInput" style={{ color: "#556ee6", fontSize: 16 }}>
+                                    <label htmlFor="imageInput" style={{ color: "#071E7B", fontSize: 16 }}>
                                       <i className="mdi mdi-file-image-outline me-1" id="Imagetooltip" />
                                       <UncontrolledTooltip placement="top" target="Imagetooltip">
                                         Images
