@@ -16,7 +16,7 @@ const UiRating = () => {
     <React.Fragment>
       <div className="page-content">
         <Container fluid={true}>
-          <Breadcrumbs title="UI Elements" breadcrumbItem="Rating" />
+          <Breadcrumbs title="Student Classes" breadcrumbItem="Rating" />
 
           <Row>
             <Col className="col-12">

@@ -162,4 +162,4 @@ Layout.propTypes = {
   topbarTheme: PropTypes.any,
 };
 
-export default withRouter(Layout);
+export default withRouter(Layout); 

@@ -57,7 +57,7 @@ const UiDropdown = () => {
     <React.Fragment>
       <div className="page-content">
         <Container fluid={true}>
-          <Breadcrumbs title="UI Elements" breadcrumbItem="Dropdowns" />
+          <Breadcrumbs title="Student Classes" breadcrumbItem="Dropdowns" />
 
           <Row>
             <Col xl={6}>

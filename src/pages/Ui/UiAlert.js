@@ -24,7 +24,7 @@ const UiAlert = () => {
     <React.Fragment>
       <div className="page-content">
         <Container fluid={true}>
-          <Breadcrumbs title="UI Elements" breadcrumbItem="Alerts" />
+          <Breadcrumbs title="Student Classes" breadcrumbItem="Alerts" />
 
           <Row>
             <Col lg={6}>

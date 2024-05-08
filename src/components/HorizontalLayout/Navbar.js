@@ -152,7 +152,7 @@ const Navbar = props => {
                     className="nav-link dropdown-toggle arrow-none"
                   >
                     <i className="bx bx-tone me-2"></i>
-                    {props.t("UI Elements")} <div className="arrow-down"></div>
+                    {props.t("Student Classes")} <div className="arrow-down"></div>
                   </Link>
                   <div
                     className={classname(
@@ -265,7 +265,7 @@ const Navbar = props => {
                     className="nav-link dropdown-togglez arrow-none"
                   >
                     <i className="bx bx-customize me-2"></i>
-                    {props.t("Apps")} <div className="arrow-down"></div>
+                    {props.t("Class Records")} <div className="arrow-down"></div>
                   </Link>
                   <div className={classname("dropdown-menu", { show: app })}>
                     <Link to="/calendar" className="dropdown-item">
@@ -616,7 +616,7 @@ const Navbar = props => {
                     }}
                   >
                     <i className="bx bx-collection me-2"></i>
-                    {props.t("Components")} <div className="arrow-down"></div>
+                    {props.t("Announcements")} <div className="arrow-down"></div>
                   </Link>
                   <div
                     className={classname("dropdown-menu", { show: component })}
@@ -800,7 +800,7 @@ const Navbar = props => {
                     }}
                   >
                     <i className="bx bx-file me-2"></i>
-                    {props.t("Extra pages")} <div className="arrow-down"></div>
+                    {props.t("Assignment / Task")} <div className="arrow-down"></div>
                   </Link>
                   <div className={classname("dropdown-menu", { show: extra })}>
                     <div className="dropdown">

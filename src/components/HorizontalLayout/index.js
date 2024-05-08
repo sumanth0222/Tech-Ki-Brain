@@ -9,7 +9,7 @@ import {
   changeTopbarTheme,
   changeLayoutWidth,
   showRightSidebarAction,
-  changeLayoutMode
+  changeLayoutMode,
 } from "../../store/actions";
 
 //redux

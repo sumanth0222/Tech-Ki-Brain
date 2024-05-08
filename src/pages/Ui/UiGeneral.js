@@ -24,7 +24,7 @@ const UiGeneral = () => {
     <React.Fragment>
       <div className="page-content">
         <Container fluid={true}>
-          <Breadcrumbs title="UI Elements" breadcrumbItem="General UI" />
+          <Breadcrumbs title="Student Classes" breadcrumbItem="General UI" />
 
           <Row>
             <Col lg={12}>

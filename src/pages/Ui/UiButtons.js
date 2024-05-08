@@ -28,7 +28,7 @@ const UiButtons = () => {
     <React.Fragment>
       <div className="page-content">
         <Container fluid={true}>
-          <Breadcrumbs title="UI Elements" breadcrumbItem="Buttons" />
+          <Breadcrumbs title="Student Classes" breadcrumbItem="Buttons" />
 
           <Row>
             <Col xl={6}>

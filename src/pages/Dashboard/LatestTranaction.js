@@ -111,7 +111,7 @@ const LatestTranaction = () => {
   return (
     <React.Fragment>
       <EcommerceOrdersModal isOpen={modal1} toggle={toggleViewModal} />
-      <Card>
+      {/* <Card>
         <CardBody>
           <div className="mb-4 h4 card-title">Latest Transaction</div>
 
@@ -123,7 +123,7 @@ const LatestTranaction = () => {
             theadClass="table-light"
           />
         </CardBody>
-      </Card>
+      </Card> */}
     </React.Fragment>
   );
 };

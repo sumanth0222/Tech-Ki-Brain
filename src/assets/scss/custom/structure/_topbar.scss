@@ -53,6 +53,7 @@
 
 .app-search {
     padding: calc(#{$header-height - 38px} * 0.5) 0;
+    margin-top: 15px;
 
     .form-control {
         border: none;

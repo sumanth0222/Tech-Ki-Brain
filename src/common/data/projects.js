@@ -293,7 +293,7 @@ const projects = [
   {
     id: 4,
     img: companies05,
-    name: "Skote Dashboard UI",
+    name: "TechEbrain UI",
     description: "Separate existence is a myth",
     status: "Completed",
     color: "success",
@@ -647,7 +647,7 @@ const projectListData = [
   {
     id: 5,
     img: companies05,
-    name: "Skote Dashboard UI",
+    name: "TechEbrain UI",
     description: "Separate existence is a myth",
     dueDate: "22 Oct, 19",
     status: "Completed",

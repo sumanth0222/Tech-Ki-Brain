@@ -42,14 +42,17 @@ fakeBackend();
 
 
 const getLayout = (layoutType) => {
-  let Layout = VerticalLayout;
+  let Layout = HorizontalLayout;
   switch (layoutType) {
+    case layoutTypes.HORIZONTAL:
+      Layout = HorizontalLayout;
+
+      break;
+
     case layoutTypes.VERTICAL:
       Layout = VerticalLayout;
       break;
-    case layoutTypes.HORIZONTAL:
-      Layout = HorizontalLayout;
-      break;
+
     default:
       break;
   }

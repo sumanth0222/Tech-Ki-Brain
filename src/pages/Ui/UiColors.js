@@ -11,7 +11,7 @@ const UiColors = () => {
     <React.Fragment>
       <div className="page-content">
         <Container fluid={true}>
-          <Breadcrumbs title="UI Elements" breadcrumbItem="Colors" />
+          <Breadcrumbs title="Student Classes" breadcrumbItem="Colors" />
 
           <Row>
             <Col xl={3} md={6}>

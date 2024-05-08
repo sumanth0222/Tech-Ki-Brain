@@ -68,7 +68,7 @@ const UiTabsAccordions = () => {
     <React.Fragment>
       <div className="page-content">
         <Container fluid={true}>
-          <Breadcrumbs title="UI Elements" breadcrumbItem="Tabs & Accordions" />
+          <Breadcrumbs title="Student Classes" breadcrumbItem="Tabs & Accordions" />
 
           <Row>
             <Col xl={6}>

@@ -112,7 +112,7 @@ const UiNotifications = () => {
     <>
       <div className="page-content">
         <Container fluid={true}>
-          <Breadcrumbs title="UI Elements" breadcrumbItem="Notifications" />
+          <Breadcrumbs title="Student Classes" breadcrumbItem="Notifications" />
 
           <Row>
             <Col lg="12">

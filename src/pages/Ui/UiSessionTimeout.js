@@ -75,7 +75,7 @@ class UiSessionTimeout extends Component {
           <Container fluid={true}>
             {this.state.timeralert}
 
-            <Breadcrumbs title="UI Elements" breadcrumbItem="Session Timeout" />
+            <Breadcrumbs title="Student Classes" breadcrumbItem="Session Timeout" />
 
             <Row>
               <Col>

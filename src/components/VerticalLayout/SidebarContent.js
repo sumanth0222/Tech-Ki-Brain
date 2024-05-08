@@ -519,7 +519,7 @@ const SidebarContent = props => {
             <li>
               <Link to="/#" className="has-arrow">
                 <i className="bx bx-tone" />
-                <span>{props.t("UI Elements")}</span>
+                <span>{props.t("Student Classes")}</span>
               </Link>
               <ul className="sub-menu">
                 <li>

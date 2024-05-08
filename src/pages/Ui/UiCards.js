@@ -40,7 +40,7 @@ const UiCards = () => {
     <React.Fragment>
       <div className="page-content">
         <Container fluid={true}>
-          <Breadcrumbs title="UI Elements" breadcrumbItem="Cards" />
+          <Breadcrumbs title="Student Classes" breadcrumbItem="Cards" />
 
           <Row>
             <Col mg={6} xl={3}>

@@ -57,7 +57,7 @@ const UiDrawer = () => {
         <React.Fragment>
             <div className="page-content">
                 <div className="container-fluid">
-                    <Breadcrumbs title="Ui Elements" breadcrumbItem="Offcanvas" />
+                    <Breadcrumbs title="Student Classes" breadcrumbItem="Offcanvas" />
                     <Row>   
                         <Col lg={6}>
                             <Card>

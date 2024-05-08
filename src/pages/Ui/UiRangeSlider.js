@@ -44,7 +44,7 @@ const UiRangeSlider = () => {
     <React.Fragment>
       <div className="page-content">
         <Container fluid={true}>
-          <Breadcrumbs title="UI Elements" breadcrumbItem="Range Slider" />
+          <Breadcrumbs title="Student Classes" breadcrumbItem="Range Slider" />
 
           <Row>
             <Col className="col-12">

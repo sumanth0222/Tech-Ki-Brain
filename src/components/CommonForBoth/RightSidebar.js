@@ -69,19 +69,6 @@ const RightSidebar = props => {
                 <span className="mb-2 d-block">Layouts</span>
                 <input
                   type="radio"
-                  id="radioVertical"
-                  name="radioFruit"
-                  value={layoutTypes.VERTICAL}
-                  checked={props.layoutType === layoutTypes.VERTICAL}
-                  onChange={e => {
-                    if (e.target.checked) {
-                      props.changeLayout(e.target.value);
-                    }
-                  }}
-                />
-                <label className="me-1" htmlFor="radioVertical">Vertical</label>
-                <input
-                  type="radio"
                   id="radioHorizontal"
                   name="radioFruit"
                   value={layoutTypes.HORIZONTAL}
@@ -92,8 +79,22 @@ const RightSidebar = props => {
                     }
                   }}
                 />
-                <label htmlFor="radioHorizontal">Horizontal</label>
+                <label className="me-1" htmlFor="radioHorizontal">Horizontal</label>
+                <input
+                  type="radio"
+                  id="radioVertical"
+                  name="radioFruit"
+                  value={layoutTypes.VERTICAL}
+                  checked={props.layoutType === layoutTypes.VERTICAL}
+                  onChange={e => {
+                    if (e.target.checked) {
+                      props.changeLayout(e.target.value);
+                    }
+                  }}
+                />
+                <label htmlFor="radioVertical">Vertical</label>
               </div>
+              
               <hr className="mt-1" />
               <div className="radio-toolbar">
                 <span className="mb-2 d-block">Layouts Mode</span>

@@ -12,7 +12,7 @@ const invoiceList = [
     founder: "Marion Burton",
     founderAt: "Skote",
     invoiceID: "14251",
-    company: "Skote Dashboard UI",
+    company: "TechEbrain UI",
     invoicePrice: "1455",
     date: " 10 Oct, 19",
     color: "primary",

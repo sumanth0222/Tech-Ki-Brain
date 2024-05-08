@@ -28,7 +28,7 @@ function UiUtilitie() {
         <React.Fragment>
             <div className="page-content">
                 <Container fluid>
-                    <Breadcrumbs title="UI Elements" breadcrumbItem="Utilities" />
+                    <Breadcrumbs title="Student Classes" breadcrumbItem="Utilities" />
                     <Row>
                         <Col xl={12}>
                             <Card>

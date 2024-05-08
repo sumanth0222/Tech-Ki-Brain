@@ -99,7 +99,7 @@ const [modal_1, setModal_1] = useState("varying");
     <React.Fragment>
       <div className="page-content">
         <Container fluid={true}>
-          <Breadcrumbs title="UI Elements" breadcrumbItem="Modals" />
+          <Breadcrumbs title="Student Classes" breadcrumbItem="Modals" />
 
           <Row>
             <Col className="col-12">

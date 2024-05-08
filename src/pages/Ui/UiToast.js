@@ -44,7 +44,7 @@ const UiToast = () => {
         <React.Fragment>
             <div className="page-content">
                 <Container fluid={true}>
-                    <Breadcrumbs title="UI Elements" breadcrumbItem="Toast" />
+                    <Breadcrumbs title="Student Classes" breadcrumbItem="Toast" />
 
                     <Row>
                         <Col xl={12}>

@@ -49,12 +49,12 @@ const Dashboard = props => {
   } = useSelector(DashboardProperties);
 
   const reports = [
-    { title: "Orders", iconClass: "bx-copy-alt", description: "1,235" },
-    { title: "Revenue", iconClass: "bx-archive-in", description: "$35, 723" },
+    { title: "Students", iconClass: "bx-copy-alt", description: "1,235" },
+    { title: "Class records", iconClass: "bx-archive-in", description: "12" },
     {
-      title: "Average Price",
+      title: "Placements Average",
       iconClass: "bx-purchase-tag-alt",
-      description: "$16.2",
+      description: "99.99%",
     },
   ];
 
@@ -121,7 +121,7 @@ const Dashboard = props => {
                 ))}
               </Row>
 
-              <Card>
+              {/* <Card>
                 <CardBody>
                   <div className="d-sm-flex flex-wrap">
                     <h4 className="card-title mb-4">Email Sent</h4>
@@ -148,10 +148,10 @@ const Dashboard = props => {
                       </ul>
                     </div>
                   </div>
-                  {/* <div className="clearfix"></div> */}
+                  <div className="clearfix"></div>
                   <StackedColumnChart periodData={periodData} dataColors='["--bs-primary", "--bs-warning", "--bs-success"]' />
                 </CardBody>
-              </Card>
+              </Card> */}
             </Col>
           </Row>
 
