@@ -18,6 +18,8 @@ import { userForgetPassword } from "../../store/actions";
 // import images
 import profile from "../../assets/images/profile-img.png";
 import logo from "../../assets/images/logo.svg";
+import Header from "components/HorizontalLayout/Header";
+import Footer from "components/HorizontalLayout/Footer";
 
 const ForgetPasswordPage = props => {
 
@@ -57,6 +59,9 @@ const ForgetPasswordPage = props => {
 
   return (
     <React.Fragment>
+
+      <Header />
+
       <div className="home-btn d-none d-sm-block">
         <Link to="/" className="text-dark">
           <i className="bx bx-home h2" />
@@ -163,6 +168,9 @@ const ForgetPasswordPage = props => {
           </Row>
         </Container>
       </div>
+
+      <Footer />
+
     </React.Fragment>
   );
 };

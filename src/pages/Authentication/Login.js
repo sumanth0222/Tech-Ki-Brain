@@ -41,8 +41,8 @@ import logo from "../../assets/images/logo.svg";
 import logoLightSvg from "../../assets/images/logo-light.svg";
 import images from "assets/images/crypto/features-img/img-2.png";
 import logoDark from "assets/images/logo-dark-banner.png"
-
-
+import Footer from "components/HorizontalLayout/Footer";
+import Header from "components/HorizontalLayout/Header";
 
 const Login = props => {
 
@@ -95,25 +95,18 @@ const Login = props => {
   return (
     <React.Fragment>
 
-     
-      <div className="account-pages">
-      <Container fluid className="overflow-hidden mb-5">
-        <Row className="bg-primary-subtle">
-          <Col md={12} lg={12} xl={12} className="py-3 px-5">
-          <img src={logoDark} alt="" className="img-fluid" width={250} />
-          </Col>
-        </Row>
-      </Container>
+      <Header />
 
-        <Container>
+
+      <div className="account-pages">
+
+        <Container className="mt-5">
           <Row className="justify-content-center">
             <Col md={8} lg={7} xl={7}>
               <div className="overflow-hidden mt-5">
-              <div className="mt-5"></div>
-              <div className="mt-5"></div>
+                <div className="mt-5"></div>
+                <div className="mt-5"></div>
               </div>
-           
-           
               <CardBody className="p-5 mt-5 bg-primary-subtle">
                 <h3>Welcome to Techebrain - Where Innovation Meets Education!</h3>
               </CardBody>
@@ -292,20 +285,10 @@ const Login = props => {
           </Row>
         </Container>
 
-
-        <Container fluid className="overflow-hidden">
-          <Row className="bg-primary-subtle">
-            <Col md={12} lg={12} xl={12}>
-              <div className="mt-3 text-center">
-                <p>
-                  © {new Date().getFullYear()} TECHEBRAIN.{" "}
-                  <i className="mdi mdi-heart text-danger" />
-                </p>
-              </div>
-            </Col>
-          </Row>
-        </Container>
       </div>
+
+      <Footer />
+
     </React.Fragment>
   );
 };

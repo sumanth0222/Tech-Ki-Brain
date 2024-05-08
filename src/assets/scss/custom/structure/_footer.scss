@@ -6,7 +6,7 @@
     bottom: 0;
     padding: 20px calc(#{$grid-gutter-width} * 0.75);
     position: absolute;
-    right: 0;
+    right: 0 !important;
     color: var(--#{$prefix}footer-color);
     left: 250px;
     height: $footer-height;

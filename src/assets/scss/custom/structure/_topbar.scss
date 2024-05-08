@@ -5,7 +5,7 @@
 #page-topbar {
   position: fixed;
   top: 0;
-  right: 0;
+  right: 0 !important;
   left: $sidebar-width;
   z-index: 1002;
   background-color: var(--#{$prefix}header-bg);
