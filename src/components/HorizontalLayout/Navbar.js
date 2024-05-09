@@ -9,6 +9,7 @@ import classname from "classnames";
 import { withTranslation } from "react-i18next";
 
 import { connect } from "react-redux";
+import assignment from "../../pages/Assignment/assignments-list";
 
 const Navbar = props => {
 
@@ -803,6 +804,30 @@ const Navbar = props => {
                     {props.t("Assignment / Task")} <div className="arrow-down"></div>
                   </Link>
                   <div className={classname("dropdown-menu", { show: extra })}>
+
+                  <div className="dropdown">
+                      <Link
+                        to="/#"
+                        className="dropdown-item dropdown-toggle arrow-none"
+                        onClick={e => {
+                          e.preventDefault();
+                          setinvoice(!invoice);
+                        }}
+                      >
+                        {props.t("Assignment")} <div className="arrow-down"></div>
+                      </Link>
+                      <div
+                        className={classname("dropdown-menu", {
+                          show: assignment,
+                        })}
+                      >
+                        <Link to="/assignments-list" className="dropdown-item">
+                          {props.t("Assignment List")}
+                        </Link>
+                      </div>
+                    </div>
+
+
                     <div className="dropdown">
                       <Link
                         to="/#"

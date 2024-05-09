@@ -65,6 +65,9 @@ export const GET_WALLET = "/wallet";
 export const GET_CRYPTO_ORDERS = "/crypto/orders";
 export const GET_CRYPTO_PRODUCTS = "/crypto-products";
 
+// ASSIGNMENTS
+export const GET_ASSINGMENTS = "/assignments";
+
 //INVOICES
 export const GET_INVOICES = "/invoices";
 export const GET_INVOICE_DETAIL = "/invoice";

@@ -1,6 +1,7 @@
 // import React from "react"
 import { cryptoOrders, wallet, productData, cryptoOrderData, icoLandingTeam, blogs, orderbookData } from "./crypto";
 import { invoiceList } from "./invoices";
+import {assignmentList} from "./assignments";
 import { projects, projectListData, OverviewTeamMember, projectAssignedTo } from "./projects";
 import { tasks, recentTasksData, AddTeamMember } from "./tasks";
 import { allmail, mailDB, labelsData, mailChatData } from "./mails";
@@ -78,6 +79,7 @@ export {
   blogs,
   allmail,
   cryptoOrders,
+  assignmentList,
   invoiceList,
   projects,
   projectListData,

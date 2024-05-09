@@ -17,8 +17,8 @@ import { Link, useNavigate } from "react-router-dom";
 // import images
 import profileImg from "../../assets/images/profile-img.png";
 import logoImg from "../../assets/images/logo.svg";
-import Header from "components/HorizontalLayout/Header";
 import Footer from "components/HorizontalLayout/Footer";
+import HeaderLogin from "components/HorizontalLayout/HeaderLogin";
 
 const Register = props => {
 
@@ -74,7 +74,7 @@ const Register = props => {
 
   return (
     <React.Fragment>
-      <Header/>
+      <HeaderLogin/>
       <div className="home-btn d-none d-sm-block">
         <Link to="/" className="text-dark">
           <i className="bx bx-home h2" />

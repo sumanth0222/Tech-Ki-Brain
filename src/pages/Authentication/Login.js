@@ -42,7 +42,7 @@ import logoLightSvg from "../../assets/images/logo-light.svg";
 import images from "assets/images/crypto/features-img/img-2.png";
 import logoDark from "assets/images/logo-dark-banner.png"
 import Footer from "components/HorizontalLayout/Footer";
-import Header from "components/HorizontalLayout/Header";
+import HeaderLogin from "components/HorizontalLayout/HeaderLogin";
 
 const Login = props => {
 
@@ -95,7 +95,7 @@ const Login = props => {
   return (
     <React.Fragment>
 
-      <Header />
+      <HeaderLogin />
 
 
       <div className="account-pages">

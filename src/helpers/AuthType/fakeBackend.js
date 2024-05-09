@@ -11,6 +11,7 @@ import {
   customerData,
   events,
   groups,
+  assignmentList,
   invoiceList,
   messages,
   orders,
@@ -46,6 +47,7 @@ import {
   cryptoOrderData,
   mailDB,
 } from "../../common/data"
+import assignmentsList from "pages/Assignment/assignments-list"
 
 let users = [
   {
@@ -803,6 +805,20 @@ const fakeBackend = () => {
           resolve([200, cryptoOrderData])
         } else {
           reject([400, "Cannot get orders"])
+        }
+      })
+    })
+  })
+
+
+  mock.onGet(url.GET_ASSINGMENTS).reply(() => {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        if (assignmentList) {
+          // Passing fake JSON data as response
+          resolve([200, assignmentList])
+        } else {
+          reject([400, "Cannot get assignment"])
         }
       })
     })

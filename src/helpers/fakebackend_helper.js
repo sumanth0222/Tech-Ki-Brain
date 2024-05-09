@@ -182,6 +182,9 @@ export const getCryptoProduct = () => get(url.GET_CRYPTO_PRODUCTS);
 // get invoices
 export const getInvoices = () => get(url.GET_INVOICES);
 
+// get assignments
+export const getAssignments = () => get(url.GET_ASSINGMENTS);
+
 // get invoice details
 export const getInvoiceDetail = id =>
   get(`${url.GET_INVOICE_DETAIL}/${id}`, { params: { id } });

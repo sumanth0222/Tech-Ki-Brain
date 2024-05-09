@@ -41,6 +41,9 @@ import EmailBasicTemplte from "../pages/Email/email-basic-templte";
 import EmailAlertTemplte from "../pages/Email/email-template-alert";
 import EmailTemplateBilling from "../pages/Email/email-template-billing";
 
+// Assignment
+import AssignmentsList from "pages/Assignment/assignments-list";
+
 //Invoices
 import InvoicesList from "../pages/Invoices/invoices-list";
 import InvoiceDetail from "../pages/Invoices/invoices-detail";
@@ -214,6 +217,9 @@ const authProtectedRoutes = [
   { path: "/email-template-basic", component: <EmailBasicTemplte /> },
   { path: "/email-template-alert", component: <EmailAlertTemplte /> },
   { path: "/email-template-billing", component: <EmailTemplateBilling /> },
+
+  // Assignment
+  { path: "/assignments-list", component: <AssignmentsList /> },
 
   //Invoices
   { path: "/invoices-list", component: <InvoicesList /> },
