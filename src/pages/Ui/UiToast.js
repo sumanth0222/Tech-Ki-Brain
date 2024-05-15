@@ -17,7 +17,7 @@ import {
 import Breadcrumbs from "../../components/Common/Breadcrumb";
 
 //import images
-import logo from "../../assets/images/logo.svg";
+import logo from "../../assets/images/logo.png";
 
 const CustomToastHeader = ({ children }) => {
     return <React.Fragment>{children}</React.Fragment>;

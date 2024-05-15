@@ -62,9 +62,9 @@ const Login2 = () => {
                     </div>
                     <div className="my-auto">
                       <div>
-                        <h5 className="text-primary">Welcome Back !</h5>
-                        <p className="text-muted">
-                          Sign in to continue to Skote.
+                        <h5 className="text-white">Welcome Back !</h5>
+                        <p className="text-white">
+                          Sign in to continue to TechEbrain.
                         </p>
                       </div>
 
@@ -194,7 +194,7 @@ const Login2 = () => {
 
                     <div className="mt-4 mt-md-5 text-center">
                       <p className="mb-0">
-                        © {new Date().getFullYear()} Skote. Crafted with{" "}
+                        © {new Date().getFullYear()}TechEbrain Crafted with{" "}
                         <i className="mdi mdi-heart text-danger"></i> by
                         Themesbrand
                       </p>

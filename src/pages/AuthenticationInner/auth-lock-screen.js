@@ -8,7 +8,7 @@ import { Container, Row, Col, CardBody, Card, Button, Form, Label, Input, FormFe
 
 // import images
 import profileImg from "../../assets/images/profile-img.png";
-import logoImg from "../../assets/images/logo.svg";
+import logoImg from "../../assets/images/logo.png";
 import lightlogo from "../../assets/images/logo-light.svg";
 import avatar from "../../assets/images/users/avatar-1.jpg";
 import { Link } from "react-router-dom";
@@ -141,7 +141,7 @@ const LockScreen = () => {
                   </Link>{" "}
                 </p>
                 <p>
-                  © {(new Date().getFullYear())} Skote. Crafted with{" "}
+                  © {(new Date().getFullYear())}TechEbrain Crafted with{" "}
                   <i className="mdi mdi-heart text-danger" /> by Themesbrand
                 </p>
               </div>

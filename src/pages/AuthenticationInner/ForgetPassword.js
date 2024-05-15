@@ -9,7 +9,7 @@ import { useFormik } from "formik";
 
 // import images
 import profile from "../../assets/images/profile-img.png";
-import logoImg from "../../assets/images/logo.svg";
+import logoImg from "../../assets/images/logo.png";
 import lightlogo from "../../assets/images/logo-light.svg";
 
 const ForgetPasswordPage = () => {
@@ -42,8 +42,8 @@ const ForgetPasswordPage = () => {
                   <Row>
                     <Col className="col-7">
                       <div className="text-primary p-4">
-                        <h5 className="text-primary">Welcome Back !</h5>
-                        <p>Sign in to continue to Skote.</p>
+                        <h5 className="text-white">Welcome Back !</h5>
+                        <p className="text-white">Sign in to continue to TechEbrain.</p>
                       </div>
                     </Col>
                     <Col className="col-5 align-self-end">
@@ -130,7 +130,7 @@ const ForgetPasswordPage = () => {
                   </Link>{" "}
                 </p>
                 <p>
-                  © {new Date().getFullYear()} Skote. Crafted with{" "}
+                  © {new Date().getFullYear()}TechEbrain Crafted with{" "}
                   <i className="mdi mdi-heart text-danger" /> by Themesbrand
                 </p>
               </div>

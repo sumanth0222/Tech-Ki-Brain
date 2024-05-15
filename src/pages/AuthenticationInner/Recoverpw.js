@@ -17,7 +17,7 @@ import {
 
 // import images
 import profile from "../../assets/images/profile-img.png";
-import logoImg from "../../assets/images/logo.svg";
+import logoImg from "../../assets/images/logo.png";
 import lightlogo from "../../assets/images/logo-light.svg";
 
 const Recoverpw = () => {
@@ -51,7 +51,7 @@ const Recoverpw = () => {
                     <Col xs={7}>
                       <div className="text-primary p-4">
                         <h5 className="text-primary"> Reset Password</h5>
-                        <p>Reset Password with Skote.</p>
+                        <p>Reset Password withTechEbrain</p>
                       </div>
                     </Col>
                     <Col xs={5} className="align-self-end">
@@ -148,7 +148,7 @@ const Recoverpw = () => {
                   </Link>{" "}
                 </p>
                 <p>
-                  © {new Date().getFullYear()} Skote. Crafted with{" "}
+                  © {new Date().getFullYear()}TechEbrain Crafted with{" "}
                   <i className="mdi mdi-heart text-danger"></i> by Themesbrand
                 </p>
               </div>

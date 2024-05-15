@@ -10,7 +10,7 @@ import { Row, Col, CardBody, Card, Container, Form, Label, Input, FormFeedback }
 
 // import images
 import profileImg from "../../assets/images/profile-img.png";
-import logoImg from "../../assets/images/logo.svg";
+import logoImg from "../../assets/images/logo.png";
 import lightlogo from "../../assets/images/logo-light.svg";
 
 const Register = () => {
@@ -209,7 +209,7 @@ const Register = () => {
                   </Link>{" "}
                 </p>
                 <p>
-                  © {new Date().getFullYear()} Skote. Crafted with{" "}
+                  © {new Date().getFullYear()}TechEbrain Crafted with{" "}
                   <i className="mdi mdi-heart text-danger" /> by Themesbrand
                 </p>
               </div>

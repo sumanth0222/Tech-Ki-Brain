@@ -13,8 +13,8 @@ const CardWelcome = () => {
             <Row>
               <Col xs="7">
                 <div className="text-primary p-3">
-                  <h5 className="text-primary">Welcome Back !</h5>
-                  <p>Skote Saas Dashboard</p>
+                  <h5 className="text-white">Welcome Back !</h5>
+                  <p>TechEbrain Saas Dashboard</p>
 
                   <ul className="ps-3 mb-0">
                     <li className="py-1">7 + Layouts</li>

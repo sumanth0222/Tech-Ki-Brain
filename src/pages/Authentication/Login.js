@@ -37,8 +37,8 @@ import dribbble from "../../assets/images/brands/dribbble.png";
 import dropbox from "../../assets/images/brands/dropbox.png";
 import mail_chimp from "../../assets/images/brands/mail_chimp.png";
 import slack from "../../assets/images/brands/slack.png";
-import logo from "../../assets/images/logo.svg";
-import logoLightSvg from "../../assets/images/logo-light.svg";
+import logo from "../../assets/images/logo.png";
+import logoLightSvg from "../../assets/images/logo.png";
 import images from "assets/images/crypto/features-img/img-2.png";
 import logoDark from "assets/images/logo-dark-banner.png"
 import Footer from "components/HorizontalLayout/Footer";
@@ -100,7 +100,7 @@ const Login = props => {
 
       <div className="account-pages">
 
-        <Container className="mt-5">
+        <Container className="mt-5 p-5">
           <Row className="justify-content-center">
             <Col md={8} lg={7} xl={7}>
               <div className="overflow-hidden mt-5">
@@ -108,18 +108,18 @@ const Login = props => {
                 <div className="mt-5"></div>
               </div>
               <CardBody className="p-5 mt-5 bg-primary-subtle">
-                <h3>Welcome to Techebrain - Where Innovation Meets Education!</h3>
+                <h3 className="text-white">Welcome to Techebrain - Where Innovation Meets Education!</h3>
               </CardBody>
             </Col>
 
-            <Col md={4} lg={5} xl={5}>
+            <Col md={4} lg={5} xl={5} className="py-5">
               <Card className="overflow-hidden">
                 <div className="bg-primary-subtle">
                   <Row>
                     <Col className="col-7">
                       <div className="text-primary p-4">
-                        <h5 className="text-primary">Welcome Back !</h5>
-                        <p>Sign in to TECHEBRAIN.</p>
+                        <h5 className="text-white">Welcome Back !</h5>
+                        <p className="text-white">Sign in to TECHEBRAIN.</p>
                       </div>
                     </Col>
                     <Col className="col-5 align-self-end">

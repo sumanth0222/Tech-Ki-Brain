@@ -17,7 +17,7 @@ import { userForgetPassword } from "../../store/actions";
 
 // import images
 import profile from "../../assets/images/profile-img.png";
-import logo from "../../assets/images/logo.svg";
+import logo from "../../assets/images/logo.png";
 import Footer from "components/HorizontalLayout/Footer";
 import HeaderLogin from "components/HorizontalLayout/HeaderLogin";
 
@@ -76,8 +76,8 @@ const ForgetPasswordPage = props => {
                   <Row>
                     <Col xs={7}>
                       <div className="text-primary p-4">
-                        <h5 className="text-primary">Welcome Back !</h5>
-                        <p>Sign in to continue to Skote.</p>
+                        <h5 className="text-white">Welcome Back !</h5>
+                        <p className="text-white">Sign in to continue to TechEbrain.</p>
                       </div>
                     </Col>
                     <Col className="col-5 align-self-end">
@@ -160,7 +160,7 @@ const ForgetPasswordPage = props => {
                   </Link>{" "}
                 </p>
                 <p>
-                  © {new Date().getFullYear()} Skote. Crafted with{" "}
+                  © {new Date().getFullYear()}TechEbrain Crafted with{" "}
                   <i className="mdi mdi-heart text-danger" /> by Themesbrand
                 </p>
               </div>

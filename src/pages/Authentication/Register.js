@@ -16,7 +16,7 @@ import { Link, useNavigate } from "react-router-dom";
 
 // import images
 import profileImg from "../../assets/images/profile-img.png";
-import logoImg from "../../assets/images/logo.svg";
+import logoImg from "../../assets/images/logo.png";
 import Footer from "components/HorizontalLayout/Footer";
 import HeaderLogin from "components/HorizontalLayout/HeaderLogin";
 
@@ -216,7 +216,7 @@ const Register = props => {
                   </Link>{" "}
                 </p>
                 <p>
-                  © {new Date().getFullYear()} Skote. Crafted with{" "}
+                  © {new Date().getFullYear()}TechEbrain Crafted with{" "}
                   <i className="mdi mdi-heart text-danger" /> by Themesbrand
                 </p>
               </div>
