@@ -197,7 +197,7 @@ const Dashboard = props => {
                   Subscribe our newletter and get notification to stay update.
                 </p>
 
-                <div className="input-group rounded bg-light">
+                <div className="input-group rounded bg-light justify-content-left">
                   <Input type="email" className="form-control bg-transparent border-0" placeholder="Enter Email address" />
                   <Button color="primary" type="button" id="button-addon2">
                     <i className="bx bxs-paper-plane"></i>
